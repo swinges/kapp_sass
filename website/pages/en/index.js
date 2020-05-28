@@ -64,9 +64,9 @@ class HomeSplash extends React.Component {
         <div className="inner">
           <ProjectTitle tagline={siteConfig.tagline} title={siteConfig.title} />
           <PromoSection>
-            <Button href="#try">Try It Out</Button>
-            <Button href={docUrl('doc1.html')}>Example Link</Button>
-            <Button href={docUrl('doc2.html')}>Example Link 2</Button>
+            <Button href="#try">Get Started Now</Button>
+            // <Button href={docUrl('doc1.html')}>Example Link</Button>
+            // <Button href={docUrl('doc2.html')}>Example Link 2</Button>
           </PromoSection>
         </div>
       </SplashContainer>
@@ -106,12 +106,10 @@ class Index extends React.Component {
         {[
           {
             content:
-              'To make your landing page more attractive, use illustrations! Check out ' +
-              '[**unDraw**](https://undraw.co/) which provides you with customizable illustrations which are free to use. ' +
-              'The illustrations you see on this page are from unDraw.',
-            image: `${baseUrl}img/undraw_code_review.svg`,
+              'Automated health checks on your application components help maximize your uptime, even while rolling out new deployments. ',
+            image: `${baseUrl}img/undraw_dev_productivity_umsq.svg`,
             imageAlign: 'left',
-            title: 'Wonderful SVG Illustrations',
+            title: 'Maximize Your Uptime',
           },
         ]}
       </Block>
@@ -135,7 +133,7 @@ class Index extends React.Component {
           {
             content:
               'Unlock the power of Kubernetes without completely overhauling your developer CI/CD pipeline. Kalm contains all of the features you need to deploy, scale, and manage powerful and complex applications.',
-            image: `${baseUrl}img/undraw_youtube_tutorial.svg`,
+            image: `${baseUrl}img/undraw_super_thank_you_obwk.svg`,
             imageAlign: 'right',
             title: 'Developers First',
           },
@@ -154,7 +152,7 @@ class Index extends React.Component {
           },
           {
             content: 'Scale and manage containerized applications in a single click.',
-            image: `${baseUrl}img/undraw_operating_system.svg`,
+            image: `${baseUrl}img/undraw_upgrade_06a0.svg`,
             imageAlign: 'top',
             title: 'Scale With Ease',
           },
