@@ -96,8 +96,8 @@ class Index extends React.Component {
       <div
         className="productShowcaseSection paddingBottom"
         style={{textAlign: 'center'}}>
-        <h2>Feature Callout</h2>
-        <MarkdownBlock>These are features of this project</MarkdownBlock>
+        <h2>Simplifying Kubernetes</h2>
+        <MarkdownBlock>Easily deploy applications on Kubernetes through Kalm's intuitive GUI.</MarkdownBlock>
       </div>
     );
 
@@ -122,10 +122,11 @@ class Index extends React.Component {
         {[
           {
             content:
-              'This is another description of how this project is useful',
-            image: `${baseUrl}img/undraw_note_list.svg`,
-            imageAlign: 'right',
-            title: 'Description',
+              'This area will show our tiered pricing system',
+            /** image: `${baseUrl}img/undraw_note_list.svg`,
+             * imageAlign: 'right',
+            */
+            title: 'Pricing',
           },
         ]}
       </Block>
@@ -136,10 +137,10 @@ class Index extends React.Component {
         {[
           {
             content:
-              'Each new Docusaurus project has **randomly-generated** theme colors.',
+              'Unlock the power of Kubernetes without completely overhauling your developer CI/CD pipeline. Kalm contains all of the features you need to deploy, scale, and manage powerful and complex applications.',
             image: `${baseUrl}img/undraw_youtube_tutorial.svg`,
             imageAlign: 'right',
-            title: 'Randomly Generated Theme Colors',
+            title: 'Developers First',
           },
         ]}
       </Block>
@@ -149,16 +150,16 @@ class Index extends React.Component {
       <Block layout="fourColumn">
         {[
           {
-            content: 'This is the content of my feature',
+            content: 'Kalm delivers the power of Kubernetes' automated deployment to developers while abstracting the painful complexities.',
             image: `${baseUrl}img/undraw_react.svg`,
             imageAlign: 'top',
-            title: 'Feature One',
+            title: 'Automated Application Deployment',
           },
           {
-            content: 'The content of my second feature',
+            content: 'Scale and manage containerized applications in a single click.',
             image: `${baseUrl}img/undraw_operating_system.svg`,
             imageAlign: 'top',
-            title: 'Feature Two',
+            title: 'Scale With Ease',
           },
         ]}
       </Block>
