@@ -21,8 +21,8 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Test Site', // Title for your website.
-  tagline: 'A website for testing',
+  title: 'Kalm', // Title for your website.
+  tagline: 'A kalm an easy interface for running kubernetes',
   url: 'https://your-docusaurus-test-site.com', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -54,8 +54,8 @@ const siteConfig = {
 
   /* Colors for website */
   colors: {
-    primaryColor: '#8d1b3d',
-    secondaryColor: '#62122a',
+    primaryColor: '#6202EE',
+    secondaryColor: '#01A39D',
   },
 
   /* Custom fonts for website */
