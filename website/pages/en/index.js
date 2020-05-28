@@ -123,9 +123,8 @@ class Index extends React.Component {
           {
             content:
               'This area will show our tiered pricing system',
-            /** image: `${baseUrl}img/undraw_note_list.svg`,
-             * imageAlign: 'right',
-            */
+            image: `${baseUrl}img/undraw_note_list.svg`,
+            imageAlign: 'right',
             title: 'Pricing',
           },
         ]}
