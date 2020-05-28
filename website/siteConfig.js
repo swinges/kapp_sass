@@ -9,7 +9,7 @@
 // site configuration options.
 
 // List of projects/orgs using your project for the users page. Commenting out for now
-// const users = [
+ const users = [];
 //  {
 //    caption: 'User1',
     // You will need to prepend the image path with your baseUrl
