@@ -149,7 +149,7 @@ class Index extends React.Component {
       <Block layout="fourColumn">
         {[
           {
-            content: 'Kalm delivers the power of Kubernetes' automated deployment to developers while abstracting the painful complexities.',
+            content: 'Kalm delivers the power of Kubernetes automated deployment to developers while abstracting the painful complexities.',
             image: `${baseUrl}img/undraw_react.svg`,
             imageAlign: 'top',
             title: 'Automated Application Deployment',
