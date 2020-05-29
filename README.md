@@ -1,1 +1,0 @@
-# kapp_sass
