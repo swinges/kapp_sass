@@ -22,7 +22,7 @@
 
 const siteConfig = {
   title: 'Kalm', // Title for your website.
-  tagline: 'A kalm an easy interface for running kubernetes',
+  tagline: 'An intuitive GUI that makes it easier to weild the full power of Kubernetes and Istio',
   url: 'https://swinges.github.io/', // Your website URL
   baseUrl: '/kapp_sass/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -41,7 +41,8 @@ const siteConfig = {
     {doc: 'intro', label: 'Docs'},
     // {doc: 'doc4', label: 'API'},
     // {page: 'help', label: 'Help'},
-    {blog: true, label: 'Blog'},
+    {href: "https://github.com/", label: "Live Demo"},
+    {href: "https://github.com/swinges/kapp_sass", label: "Github"},
     {href: "https://github.com/", label: "Login"}
   ],
 

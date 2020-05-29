@@ -93,8 +93,8 @@ class Index extends React.Component {
       <div
         className="productShowcaseSection paddingBottom"
         style={{textAlign: 'center'}}>
-        <h2>Simplifying Kubernetes</h2>
-        <MarkdownBlock>Easily deploy applications on Kubernetes through Kalm's intuitive GUI.</MarkdownBlock>
+        <h2>Open Source</h2>
+        <MarkdownBlock>Kalm is installed as a webapp and a Kubernetes operator.</MarkdownBlock>
       </div>
     );
 
@@ -103,10 +103,10 @@ class Index extends React.Component {
         {[
           {
             content:
-              'Automated health checks on your application components help maximize your uptime, even while rolling out new deployments. ',
+              'Kalm contains basic and advanced deployment configurations powered by Istio. Easily maximize your uptime, roll out new features safely, scale your appication, and rollback as needed. ',
             image: `${baseUrl}img/undraw_dev_productivity_umsq.svg`,
             imageAlign: 'left',
-            title: 'Maximize Your Uptime',
+            title: 'Next Generation Deployment',
           },
         ]}
       </Block>
@@ -129,7 +129,7 @@ class Index extends React.Component {
         {[
           {
             content:
-              'Unlock the power of Kubernetes without completely overhauling your developer CI/CD pipeline. Kalm contains all of the features you need to deploy, scale, and manage powerful and complex applications.',
+              'Kalm is designed to work with managed Kubernetes systems, so you can bring your own cluster with Google, Amazon, Azure, and many more. Applications can be setup in minutes. Easily manage secrets, configs, auto-healing probes, domain route SSL, and more.',
             image: `${baseUrl}img/undraw_super_thank_you_obwk.svg`,
             imageAlign: 'right',
             title: 'Developers First',
@@ -142,16 +142,16 @@ class Index extends React.Component {
       <Block layout="fourColumn">
         {[
           {
-            content: 'Kalm delivers the power of Kubernetes automated deployment to developers while abstracting the painful complexities.',
+            content: 'Say goodbye to awkward hacking and hand-holding on yml files. With Kalm, lead developers can quickly configure a robust and streamlined workflow for the entire team.',
             image: `${baseUrl}img/undraw_react.svg`,
             imageAlign: 'top',
-            title: 'Automated Application Deployment',
+            title: 'For Developers',
           },
           {
-            content: 'Scale and manage containerized applications in a single click.',
+            content: 'Harness the full power of Kubernetes without losing complex features. You can customize every aspect of your development configuration with Kalm.',
             image: `${baseUrl}img/undraw_upgrade_06a0.svg`,
             imageAlign: 'top',
-            title: 'Scale With Ease',
+            title: 'Power and Precision',
           },
         ]}
       </Block>
