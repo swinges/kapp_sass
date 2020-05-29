@@ -1,10 +1,29 @@
 {
   "docs": {
-    "Docusaurus": ["doc1"],
-    "First Category": ["doc2"],
-    "Second Category": ["doc3"]
+    "Getting Started": [
+      "intro": ["gettingStarted1"],
+      "install": ["gettingStarted2"],
+      "configure": ["gettingStarted3"]
+    ],
+    "Basic Tutorial": [
+      "tut-overview": ["tutorial1"],
+      "tut-create": ["tutorial2"],
+      "tut-deploy": ["tutorial3"],
+      "tut-scale": ["tutorial4"],
+      "tut-rollback": ["tutorial5"]
+    ],
+    "Guides": [
+      "guide-https": ["guide1"],
+      "guide-google": ["guide2"]
+    ],
+    "FAQ": [
+      "faq-permissions": ["faq1"],
+      "faq-auth": ["faq2"]
+    ]
   },
-  "docs-other": {
-    "First Category": ["doc4", "doc5"]
+  "api": {
+    "API Reference": [
+      "api1": ["api1"]
+    ]
   }
 }
